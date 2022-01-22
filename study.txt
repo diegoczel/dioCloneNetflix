@@ -1,0 +1,9 @@
+extensions
+  * live server
+    real time view of changes in file
+  * auto rename tag
+  * dracula theme
+
+commands
+  ALT + SHIFT + seta baixo
+    clona a linha atual

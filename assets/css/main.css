@@ -1,0 +1,48 @@
+/* cada navegador tem seu padrão de margin e padding, logo,
+se efetuar um site em um navegador, ele pode, apresentar
+outro resultado*/
+
+/* CSS criar regras que tornem seu site identico 
+independente de navegador*/
+
+/* criar var */
+:root {
+  --red: #E50914;
+  --black: #141414;
+}
+
+/* reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  /* limite de tamanho é a border da caixa*/
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--red);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #FFF;
+}
