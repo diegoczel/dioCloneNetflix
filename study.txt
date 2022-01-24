@@ -7,3 +7,7 @@ extensions
 commands
   ALT + SHIFT + seta baixo
     clona a linha atual
+  tag.nomeClass
+    cria tag com esta class
+  
+site https://www.themoviedb.org/?language=pt-BR

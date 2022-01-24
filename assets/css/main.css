@@ -22,6 +22,7 @@ independente de navegador*/
 body {
   background: var(--black);
   font-family: 'Times New Roman', Times, serif;
+  color: white;
 }
 
 header .container {
@@ -46,3 +47,27 @@ header nav a {
 header nav a:hover {
   color: #FFF;
 }
+
+/* BEGIN filme main */
+.filme-principal {
+  font-size: 16px;
+  /* linear-gradient serve para criar uma tonalidade de cor, para facilitar a leitura de texto em img, ( outras coisas tmb ) */
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%),url('../img/capa-house.jpg');
+
+  height: 400px;
+  background-size: cover; /* area cobertura container */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* this prop sempre segue a direção do flex*/
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 90px;
+}
+
+#titulo {
+  font-size: 40px;
+}
+/* END filme main */
