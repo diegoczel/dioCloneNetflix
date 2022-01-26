@@ -64,10 +64,49 @@ header nav a:hover {
 }
 
 .filme-principal .descricao {
+  margin-top: 10px;
   margin-bottom: 90px;
 }
 
-#titulo {
+.filme-principal #titulo {
+  margin-top: 15%;
   font-size: 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+  background-color: rgba(0, 0, 0, .5);
+  border: none;
+  color: white;
+  padding: 15px 30px;/* 15 is top and bottom | 30 is left and right */
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  /* cuida da transição entre uma animação a outra */
+  transition: ease 1s;
+}
+
+.botao:hover {
+  background-color: white;
+  color: black;
+} 
+
+.botao i {
+  margin-right: 5px;
+}
+
+.container {
+  margin-left: 20px;
+}
+
+.filme-principal .container {
+  width: 70%;
 }
 /* END filme main */
+
+/* size of img */
+.box-filme {
+  height: 100%;
+  width: 100%;
+  display: block;
+}

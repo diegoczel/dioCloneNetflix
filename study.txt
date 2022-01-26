@@ -11,3 +11,4 @@ commands
     cria tag com esta class
   
 site https://www.themoviedb.org/?language=pt-BR
+site https://fontawesome.com/
