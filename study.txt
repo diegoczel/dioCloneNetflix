@@ -12,3 +12,9 @@ commands
   
 site https://www.themoviedb.org/?language=pt-BR
 site https://fontawesome.com/
+
+TODO
+  * dar vida aos botoes, clicar em assistir, abrir um video, etc.
+  * fazer uma nova roupagem
+  * usar api themoviedb para popular filmes, series
+  * algo de soundtrack dos filmes, like tunefind
